@@ -1,6 +1,5 @@
 // eslint-disable-next-line
 import React from 'react'
-import PropTypes from 'prop-types'
 
 /**
  * Cell represents the atomic element of a table
@@ -245,7 +244,6 @@ export default class Cell extends React.Component {
           onKeyPress={this.onKeyPressOnInput}
           value={this.state.value}
           onChange={this.onChange}
-          autoFocus
         />
       )
     }
